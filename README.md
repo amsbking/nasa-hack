@@ -50,7 +50,7 @@ $ cd nasa-hack
 $ python3 nasahack.py
 
 
-#If You Copy This Then Give Me Credit
+# If You Copy This Then Give Me Credit
 
 
 # Thank For Saty With Us,,,,😍😍😍 
