@@ -13,7 +13,7 @@ apt update
 
 apt upgrade
 
-termux-setup-storage
+
 
 pkg install python -y
 
@@ -43,59 +43,23 @@ pkg install php -y
 
 pkg install fish -y
 
-pip install astroid 
 
-pip install autopep8
-
-pip install certifi
-
-pip install chardet
-
-pip install colorama 
-
-pip install future
-
-pip install idna 
-
-pip install isort 
-
-pip install lazy-object-proxy
 
 pip install lolcat 
 
-pip install mccabe  
-
-pip install Pillow 
-
-pip install pilo 
-
 pip install pip
 
-pip install pycodestyle 
 
 pip install pyfiglet
-
-pip install pylint
 
 pip install requests 
 
 pip install setuptools
 
-pip install six
 
 pip install termcolor
 
-pip install toml
-
 pip install urllib3
-
-pip install wheel
-
-pip install wrapt
-
-pip install youtube-dl
-
-pip install mechanize 
 
 apt install ruby -y
 
@@ -120,6 +84,10 @@ echo
 echo "Now Your TrMux Is Ready To Nasa Hack," |lolcat
 
 #Remake By Mao2116
+#This Remake For nasa-hack Tool
+#orijinal Tool :: https://github.com/mao2116/bscpkg/
 
+echo 
+echo 
 
 python3 nasahack.py
