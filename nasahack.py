@@ -36,6 +36,11 @@ def x5 (z):
      sys.stdout.flush()
      time.sleep(0.01)
 
+def m (z):
+  for word in z + '\n':
+     sys.stdout.write(word)
+     sys.stdout.flush()
+     time.sleep(0.03)
 logo1= figlet_format("NaSa Hager", 'isometric2')
 
 c5 = colored(logo, 'red')
@@ -75,6 +80,16 @@ x15 = figlet_format("To", 'slant')
 x21 = colored(x15, 'yellow')
 x16 = figlet_format("Go", 'slant')
 x22 = colored(x16, 'blue')
+m1 = figlet_format("Akdin mar jaye ga", 'digital')
+m2 = figlet_format("kutte ki mot")
+m3 = figlet_format("Jag meay sob kahenge", 'digital')
+m4 = figlet_format("Mar geay matherchod")
+m5 = figlet_format("La La La", 'digital')
+m1 = colored(m1, 'red')
+m2 = colored(m2, 'yellow')
+m3 = colored(m3, 'green')
+m4 = colored(m4, 'cyan')
+m5 = colored(m5, 'blue')
 x9(c5)
 x5(c6)
 while True:
@@ -96,7 +111,11 @@ while True:
       x5(x24)
       x5(x25)
       x5(x26)
-      
+      m(m1)
+      m(m2)
+      m(m3)
+      m(m4)
+      m(m5)
       os.system('xdg-open https://www.nasa.gov')
     else:
       print(xn, " We Failled To Do This,, The Site Saw Us 404 Error")
